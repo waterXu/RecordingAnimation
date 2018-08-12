@@ -15,6 +15,7 @@
 		5B4F7C342115AAAE00EE5545 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F7C332115AAAE00EE5545 /* main.m */; };
 		5B4F7C3E2115AAAE00EE5545 /* RecordingAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F7C3D2115AAAE00EE5545 /* RecordingAnimationTests.m */; };
 		5B4F7C492115AAAE00EE5545 /* RecordingAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F7C482115AAAE00EE5545 /* RecordingAnimationUITests.m */; };
+		5B4F7C582115AE9900EE5545 /* BIAssistantRecordAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F7C572115AE9900EE5545 /* BIAssistantRecordAnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5B4F7C442115AAAE00EE5545 /* RecordingAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordingAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4F7C482115AAAE00EE5545 /* RecordingAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordingAnimationUITests.m; sourceTree = "<group>"; };
 		5B4F7C4A2115AAAE00EE5545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4F7C562115AE9900EE5545 /* BIAssistantRecordAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIAssistantRecordAnimationView.h; sourceTree = "<group>"; };
+		5B4F7C572115AE9900EE5545 /* BIAssistantRecordAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIAssistantRecordAnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				5B4F7C2F2115AAAE00EE5545 /* LaunchScreen.storyboard */,
 				5B4F7C322115AAAE00EE5545 /* Info.plist */,
 				5B4F7C332115AAAE00EE5545 /* main.m */,
+				5B4F7C562115AE9900EE5545 /* BIAssistantRecordAnimationView.h */,
+				5B4F7C572115AE9900EE5545 /* BIAssistantRecordAnimationView.m */,
 			);
 			path = RecordingAnimation;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B4F7C582115AE9900EE5545 /* BIAssistantRecordAnimationView.m in Sources */,
 				5B4F7C292115AAAB00EE5545 /* ViewController.m in Sources */,
 				5B4F7C342115AAAE00EE5545 /* main.m in Sources */,
 				5B4F7C262115AAAB00EE5545 /* AppDelegate.m in Sources */,
@@ -436,6 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ULLD96QN83;
 				INFOPLIST_FILE = RecordingAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ULLD96QN83;
 				INFOPLIST_FILE = RecordingAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
